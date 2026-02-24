@@ -1,16 +1,15 @@
 {
-  "name": "lightbody-ai-api",
+  "name": "lightbody-ai",
   "version": "1.0.0",
-  "description": "光体AI - OpenAI API 内容生成系统",
-  "main": "api/generate.js",
+  "private": true,
   "scripts": {
-    "dev": "vercel dev",
-    "deploy": "vercel --prod"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
-    "openai": "^4.0.0"
-  },
-  "devDependencies": {
-    "vercel": "^32.0.0"
+    "next": "14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
