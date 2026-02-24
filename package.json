@@ -1,0 +1,16 @@
+{
+  "name": "lightbody-ai-api",
+  "version": "1.0.0",
+  "description": "光体AI - OpenAI API 内容生成系统",
+  "main": "api/generate.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "openai": "^4.0.0"
+  },
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  }
+}
